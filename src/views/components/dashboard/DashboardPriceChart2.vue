@@ -147,66 +147,6 @@
         </b-card-body>
       </b-col>
     </b-row>
-    <b-card-footer class="px-0">
-      <div v-if="coinInfo.description && coinInfo.description.en">
-        {{ coinInfo.description.en || '' }}
-      </div>
-      <div class="mt-1">
-        <b-button
-          :href="homepage"
-          class="mr-1"
-          variant="outline-secondary"
-          size="sm"
-        >
-          <feather-icon icon="CastIcon" /> Website
-        </b-button>
-        <b-button
-          :href="twitter"
-          class="mr-1"
-          variant="outline-secondary"
-          size="sm"
-        >
-          <feather-icon icon="TwitterIcon" /> Twitter
-        </b-button>
-        <b-button
-          :href="github"
-          class="mr-1"
-          variant="outline-secondary"
-          size="sm"
-        >
-          <feather-icon icon="GithubIcon" /> Github
-        </b-button>
-        <b-button
-          :href="discord"
-          class="mr-1"
-          variant="outline-secondary"
-          size="sm"
-        >
-          <feather-icon icon="MessageSquareIcon" /> Discord
-        </b-button>
-        <b-button
-          :href="telegram"
-          class="mr-1"
-          variant="outline-secondary"
-          size="sm"
-        >
-          <feather-icon icon="SendIcon" /> Telegram
-        </b-button>
-        <b-dropdown
-          v-if="coinInfo.links && coinInfo.links.blockchain_site"
-          id="dropdown-2"
-          size="sm"
-          text="Block Explorers"
-          variant="outline-secondary"
-        >
-          <b-dropdown-item
-            v-for="site in coinInfo.links.blockchain_site.filter(x => x)"
-            :key="site"
-            :href="site"
-          >{{ site }}</b-dropdown-item>
-        </b-dropdown>
-      </div>
-    </b-card-footer>
   </b-card>
 </template>
 

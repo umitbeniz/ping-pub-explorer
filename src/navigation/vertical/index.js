@@ -19,20 +19,20 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://explorer.kalia.network/kalia.png',
+      icon: 'https://explorer.kalia.network/favicon.ico',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
       title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
+      href: 'https://explorer.kalia.network',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
       title: 'Testnet Explorer',
-      href: 'http://testnet.ping.pub',
+      href: 'http://testnet.explorer.kalia.network',
       icon: 'LifeBuoyIcon',
     })
   }
@@ -40,11 +40,6 @@ function processMenu() {
     title: 'Twitter',
     href: 'https://twitter.com/KaliaNetwork',
     icon: 'TwitterIcon',
-  })
-  chainMenus.push({
-    title: 'FAQ',
-    href: 'https://github.com/ping-pub/explorer/discussions',
-    icon: 'MessageSquareIcon',
   })
 
   return chainMenus
