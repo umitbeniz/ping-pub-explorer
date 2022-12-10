@@ -1,0 +1,35 @@
+{
+    "chain_name": "Acrechain",
+    "coingecko": "arable-protocol",
+    "api":[
+           "https://rest.cosmos.directory/acrechain",
+           "https://api.acre.nodestake.top",
+           "https://api-acrechain.nodeist.net",
+           "https://lcd-acre.synergynodes.com"
+          ],
+    "rpc":[
+           "https://rpc.cosmos.directory/acrechain",
+           "https://rpc.acre.nodestake.top",
+           "https://rpc-acrechain.nodeist.net",
+           "https://rpc-acre.synergynodes.com"
+          ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": 60,
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "acre",
+    "logo": "/logos/acre.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 0,
+      "average": 25000000000,
+      "high": 40000000000
+    },
+    "assets": [{
+        "base": "aacre",
+        "symbol": "ACRE",
+        "exponent": 18,
+        "coingecko_id": "arable-protocol",
+        "logo": "/logos/acre.jpg"
+    }]
+}

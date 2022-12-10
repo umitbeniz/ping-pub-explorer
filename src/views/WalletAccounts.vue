@@ -651,7 +651,7 @@ export default {
     box-shadow: none;
 }
 .addzone :hover {
-    border: 2px dashed #7367F0;
+    border: 2px dashed #b89100;
 }
 
 </style>
