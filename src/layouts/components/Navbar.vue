@@ -51,7 +51,7 @@
           <h6 class="mb-0 ">
             <span class="text-uppercase">{{ chainid || selected_chain.chain_name }}</span>
           </h6>
-          <small id="data-provider">
+          <small class="d-none" id="data-provider">
             <b-dropdown
               class="ml-0"
               variant="flat-primary"
