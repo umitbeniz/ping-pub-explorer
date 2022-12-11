@@ -467,7 +467,7 @@ export default {
     box-shadow: none;
 }
 .addzone :hover {
-    border: 2px dashed #daad0a;
+    border: 2px dashed #ffca00;
 }
 @media (min-width: 768px) {
   td:first-child { width: 20% ;}
