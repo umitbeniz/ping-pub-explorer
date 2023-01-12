@@ -17,7 +17,7 @@
     height="150"
     x="0"
     y="0"
-    href="/kalia.png"
+    href="/logo.png"
   />
   </svg>
 </template>

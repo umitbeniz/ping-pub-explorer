@@ -12,9 +12,7 @@
       </div>
     </b-link>
 
-    <p class="mb-1">
-      
-    </p>
+    <br>
     <h2 class="mb-3">
       Cosmos mainnet chains we are in 🚀
     </h2>
