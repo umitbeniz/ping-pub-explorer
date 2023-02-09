@@ -1,7 +1,7 @@
 {
     "chain_name": "testnet-neutron",
-    "api": ["https://api-neutron.d-stake.xyz"],
-    "rpc": ["https://rpc-neutron.d-stake.xyz"],
+    "api": ["https://lcd-office.cosmostation.io/neutron-testnet"],
+    "rpc": ["https://rpc-office.cosmostation.io/neutron-testnet"],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
     "coin_type": 118,
