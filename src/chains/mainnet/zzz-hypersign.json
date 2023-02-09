@@ -1,0 +1,36 @@
+{
+    "chain_name": "hypersign",
+    "coingecko": "",
+    "api": [
+        "https://api.jagrat.hypersign.id"
+    ],
+    "rpc": [
+        "https://rpc.jagrat.hypersign.id"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.0",
+    "coin_type": 60,
+    "min_tx_fee": "0",
+    "addr_prefix": "hid",
+    "logo": "/logos/hypersign.png",
+    "keplr_features": [
+        "ibc-transfer",
+        "ibc-go",
+        "eth-address-gen",
+        "eth-key-sign"
+    ],
+    "keplr_price_step": {
+        "low": 0,
+        "average": 20000000000,
+        "high": 40000000000
+    },
+    "assets": [
+        {
+            "base": "uhid",
+            "symbol": "HID",
+            "exponent": 6,
+            "coingecko_id": "hypersign-identity-token",
+            "logo": "/logos/hypersign.png"
+        }
+    ]
+}
