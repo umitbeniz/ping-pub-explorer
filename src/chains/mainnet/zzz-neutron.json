@@ -1,0 +1,19 @@
+{
+    "chain_name": "testnet-neutron",
+    "api": ["https://api-neutron.d-stake.xyz"],
+    "rpc": ["https://rpc-neutron.d-stake.xyz"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.2",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "neutron",
+    "logo": "/logos/neutron.png",
+    "assets": [
+      {
+        "base": "untrn",
+        "symbol": "NTRN",
+        "exponent": "6",
+        "logo": "/logos/neutron.png"
+      }
+    ]
+}
