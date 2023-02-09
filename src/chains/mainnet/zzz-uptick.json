@@ -1,5 +1,5 @@
 {
-    "chain_name": "uptick",
+    "chain_name": "testnet-uptick",
     "coingecko": "",
     "api": [
         "https://t-uptick-api.kalia.network"
