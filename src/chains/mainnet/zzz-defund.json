@@ -1,0 +1,24 @@
+{
+    "chain_name": "testnet-defund",
+    "coingecko": null,
+    "api": [
+        "https://defund-testnet.api.kjnodes.com"
+    ],
+    "rpc": [
+        "https://defund-testnet.rpc.kjnodes.com"
+    ],
+    "snapshot_provider": "",
+    "coin_type": "118",
+    "sdk_version": "0.45.10",
+    "addr_prefix": "defund",
+    "logo": "/logos/defund.png",
+    "assets": [
+        {
+            "base": "ufetf",
+            "symbol": "FETF",
+            "exponent": "6",
+            "coingecko_id": "defund",
+            "logo": "/logos/defund.png"
+        }
+    ]
+}
