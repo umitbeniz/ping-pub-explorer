@@ -2,10 +2,10 @@
     "chain_name": "testnet-jackal",
     "coingecko": "jackal_protocol",
     "api": [
-        "https://testnet-api.jackalprotocol.com"
+        "https://api-t.jackal.nodestake.top", "https://testnet-api.jackalprotocol.com"
     ],
     "rpc": [
-        "https://testnet-rpc.jackalprotocol.com"
+        "https://rpc-t.jackal.nodestake.top", "https://testnet-rpc.jackalprotocol.com"
     ],
     "snapshot_provider": "",
     "coin_type": "118",
