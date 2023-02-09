@@ -1,0 +1,19 @@
+{
+    "chain_name": "testnet-gitopia",
+    "api": ["https://gitopia-testnet.api.kjnodes.com"],
+    "rpc": ["https://gitopia-testnet.rpc.kjnodes.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.2",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "gitopia",
+    "logo": "/logos/gitopia.png",
+    "assets": [
+      {
+        "base": "utlore",
+        "symbol": "TLORE",
+        "exponent": "6",
+        "logo": "/logos/gitopia.png"
+      }
+    ]
+}
