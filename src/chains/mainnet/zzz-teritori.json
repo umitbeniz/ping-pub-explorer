@@ -1,5 +1,5 @@
 {
-    "chain_name": "teritori",
+    "chain_name": "testnet-teritori",
     "api": ["https://teritori-testnet.api.kjnodes.com"],
     "rpc": ["https://teritori-testnet.rpc.kjnodes.com"],
     "snapshot_provider": "",
