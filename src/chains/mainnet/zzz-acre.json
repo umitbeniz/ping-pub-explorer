@@ -1,5 +1,5 @@
 {
-    "chain_name": "Acrechain",
+    "chain_name": "testnet-acrechain",
     "coingecko": "arable-protocol",
     "api":[
            "https://api-t.acre.nodestake.top"
