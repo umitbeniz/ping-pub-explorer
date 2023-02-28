@@ -1,5 +1,5 @@
 {
-    "chain_name": "evmos",
+    "chain_name": "testnet-evmos",
     "coingecko": "",
     "api": ["https://rest.bd.evmos.dev:1317"],
     "rpc": ["https://tendermint.bd.evmos.dev:26657"],
