@@ -2,10 +2,10 @@
     "chain_name": "uptick",
     "coingecko": "",
     "api": [
-        "https://uptick-api.kalia.network"
+        "https://rest.cosmos.directory/uptick"
     ],
     "rpc": [
-        "https://uptick-rpc.kalia.network"
+        "https://rpc.cosmos.directory/uptick"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
