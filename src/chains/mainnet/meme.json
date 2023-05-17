@@ -1,10 +1,16 @@
 {
   "chain_name": "meme",
-  "api": [ "https://meme-api.polkachu.com:443", "https://api.meme.pupmos.network:443"  ],
-  "rpc": [ "https://meme-rpc.polkachu.com:443", "https://rpc.meme.pupmos.network:443" ],
+  "api": [
+    "https://meme-api.polkachu.com:443",
+    "https://api.meme.pupmos.network:443"
+  ],
+  "rpc": [
+    "https://meme-rpc.polkachu.com:443",
+    "https://rpc.meme.pupmos.network:443"
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.9",
-  "coin_type": "118",
+  "coin_type": 118,
   "min_tx_fee": "8000",
   "addr_prefix": "meme",
   "logo": "/logos/meme.svg",
@@ -12,7 +18,7 @@
     {
       "base": "umeme",
       "symbol": "MEME",
-      "exponent": "6",
+      "exponent": 6,
       "coingecko_id": "",
       "logo": "/logos/meme.svg"
     }

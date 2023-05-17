@@ -8,7 +8,7 @@
         "https://defund-testnet.rpc.kjnodes.com"
     ],
     "snapshot_provider": "",
-    "coin_type": "118",
+    "coin_type": 118,
     "sdk_version": "0.45.10",
     "addr_prefix": "defund",
     "logo": "/logos/defund.png",
@@ -16,7 +16,7 @@
         {
             "base": "ufetf",
             "symbol": "FETF",
-            "exponent": "6",
+            "exponent": 6,
             "coingecko_id": "defund",
             "logo": "/logos/defund.png"
         }

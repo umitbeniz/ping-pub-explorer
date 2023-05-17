@@ -1,7 +1,11 @@
 {
     "chain_name": "gitopia",
-    "api": ["https://gitopia-api.polkachu.com"],
-    "rpc": ["https://gitopia-rpc.polkachu.com"],
+    "api": [
+        "https://gitopia-api.polkachu.com"
+    ],
+    "rpc": [
+        "https://gitopia-rpc.polkachu.com"
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
     "coin_type": 118,
@@ -9,11 +13,11 @@
     "addr_prefix": "gitopia",
     "logo": "/logos/gitopia.png",
     "assets": [
-      {
-        "base": "ulore",
-        "symbol": "LORE",
-        "exponent": 6,
-        "logo": "/logos/gitopia.png"
-      }
+        {
+            "base": "ulore",
+            "symbol": "LORE",
+            "exponent": 6,
+            "logo": "/logos/gitopia.png"
+        }
     ]
 }

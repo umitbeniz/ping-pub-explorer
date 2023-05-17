@@ -2,13 +2,15 @@
     "chain_name": "testnet-jackal",
     "coingecko": "jackal_protocol",
     "api": [
-        "https://api-t.jackal.nodestake.top", "https://testnet-api.jackalprotocol.com"
+        "https://api-t.jackal.nodestake.top",
+        "https://testnet-api.jackalprotocol.com"
     ],
     "rpc": [
-        "https://rpc-t.jackal.nodestake.top", "https://testnet-rpc.jackalprotocol.com"
+        "https://rpc-t.jackal.nodestake.top",
+        "https://testnet-rpc.jackalprotocol.com"
     ],
     "snapshot_provider": "",
-    "coin_type": "118",
+    "coin_type": 118,
     "sdk_version": "0.45.10",
     "addr_prefix": "jkl",
     "logo": "/logos/jackal.png",
@@ -16,7 +18,7 @@
         {
             "base": "ujkl",
             "symbol": "JKL",
-            "exponent": "6",
+            "exponent": 6,
             "coingecko_id": "jackal",
             "logo": "/logos/jackal.png"
         }

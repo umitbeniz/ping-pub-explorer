@@ -1,19 +1,25 @@
 {
-    "chain_name": "testnet-neutron",
-    "api": ["https://api.testnet.neutron.bh.rocks/", "https://lcd-office.cosmostation.io/neutron-testnet"],
-    "rpc": ["https://rpc.testnet.neutron.bh.rocks/", "https://rpc-office.cosmostation.io/neutron-testnet"],
-    "snapshot_provider": "",
-    "sdk_version": "0.46.2",
-    "coin_type": 118,
-    "min_tx_fee": "0",
-    "addr_prefix": "neutron",
-    "logo": "/logos/neutron.png",
-    "assets": [
-      {
-        "base": "untrn",
-        "symbol": "NTRN",
-        "exponent": "6",
-        "logo": "/logos/neutron.png"
-      }
-    ]
+  "chain_name": "testnet-neutron",
+  "api": [
+    "https://api.testnet.neutron.bh.rocks/",
+    "https://lcd-office.cosmostation.io/neutron-testnet"
+  ],
+  "rpc": [
+    "https://rpc.testnet.neutron.bh.rocks/",
+    "https://rpc-office.cosmostation.io/neutron-testnet"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.2",
+  "coin_type": 118,
+  "min_tx_fee": "0",
+  "addr_prefix": "neutron",
+  "logo": "/logos/neutron.png",
+  "assets": [
+    {
+      "base": "untrn",
+      "symbol": "NTRN",
+      "exponent": 6,
+      "logo": "/logos/neutron.png"
+    }
+  ]
 }

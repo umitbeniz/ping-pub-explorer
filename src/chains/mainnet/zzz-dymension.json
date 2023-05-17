@@ -1,19 +1,23 @@
 {
     "chain_name": "testnet-dymension",
-    "coingecko": "dymension", 
-    "api":"https://dymension-testnet-rest.brocha.in", 
-    "rpc": ["https://dymension-testnet-rpc.brocha.in"],
+    "coingecko": "dymension",
+    "api": "https://dymension-testnet-rest.brocha.in",
+    "rpc": [
+        "https://dymension-testnet-rpc.brocha.in"
+    ],
     "snapshot_provider": null,
     "sdk_version": "0.46.6",
     "coin_type": 118,
     "min_tx_fee": "0",
-    "assets": [{
-        "base": "udym",
-        "symbol": "DYM",
-        "exponent": "6",
-        "coingecko_id": "dymension", 
-        "logo": "/logos/dymension.png"
-    }],
+    "assets": [
+        {
+            "base": "udym",
+            "symbol": "DYM",
+            "exponent": 6,
+            "coingecko_id": "dymension",
+            "logo": "/logos/dymension.png"
+        }
+    ],
     "addr_prefix": "dym",
     "logo": "/logos/dymension.png"
 }
