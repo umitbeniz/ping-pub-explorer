@@ -12,7 +12,7 @@
       {
         "base": "ulore",
         "symbol": "LORE",
-        "exponent": "6",
+        "exponent": 6,
         "logo": "/logos/gitopia.png"
       }
     ]
