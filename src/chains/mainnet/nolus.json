@@ -1,0 +1,24 @@
+{
+    "chain_name": "pirin-1",
+    "coingecko": "",
+    "api": [
+      "https://rest.nolus.nodexcapital.com"
+    ],
+    "rpc": [
+      "https://rpc.nolus.nodexcapital.com"
+    ],
+    "sdk_version": "0.46.1",
+    "coin_type": 118,
+    "min_tx_fee": "8000",
+    "addr_prefix": "nolus",
+    "logo": "/logos/nolus.png",
+    "assets": [
+      {
+        "base": "unls",
+        "symbol": "NLS",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/nolus.png"
+      }
+    ]
+  }
