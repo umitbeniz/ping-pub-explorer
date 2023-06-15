@@ -1,0 +1,24 @@
+{
+    "chain_name": "qwoyn",
+    "api": [
+        "https://qwoyn-api.kalia.network:443"
+    ],
+    "rpc": [
+        "https://qwoyn-rpc.kalia.network:443"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.1",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "qwoyn",
+    "logo": "/logos/qwoyn.jpg",
+    "assets": [
+        {
+            "base": "uqwoyn",
+            "symbol": "QWOYN",
+            "exponent": 6,
+            "coingecko_id": "qwoyn-1",
+            "logo": "/logos/qwoyn.jpg"
+        }
+    ]
+}
