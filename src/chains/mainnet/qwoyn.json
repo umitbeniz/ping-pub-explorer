@@ -1,10 +1,12 @@
 {
     "chain_name": "qwoyn",
     "api": [
-        "https://qwoyn-api.kalia.network:443"
+        "https://rest-qwoyn.theamsolutions.info",
+        "https://qwoyn-api.kalia.network"
     ],
     "rpc": [
-        "https://qwoyn-rpc.kalia.network:443"
+        "https://rpc-qwoyn.theamsolutions.info",
+        "https://qwoyn-rpc.kalia.network"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
