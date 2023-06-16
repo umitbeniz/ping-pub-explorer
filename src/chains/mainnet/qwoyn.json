@@ -1,11 +1,9 @@
 {
     "chain_name": "qwoyn",
     "api": [
-        "https://rest-qwoyn.theamsolutions.info",
         "https://qwoyn-api.kalia.network"
     ],
     "rpc": [
-        "https://rpc-qwoyn.theamsolutions.info",
         "https://qwoyn-rpc.kalia.network"
     ],
     "snapshot_provider": "",
