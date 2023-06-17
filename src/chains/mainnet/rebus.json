@@ -1,12 +1,10 @@
 {
   "chain_name": "rebus",
   "api": [
-    "https://api.mainnet.rebus.money:1317",
-    "https://api.rebus.nodestake.top"
+    "https://rest.cosmos.directory/rebus"
   ],
   "rpc": [
-    "https://api.mainnet.rebus.money:26657",
-    "https://rpc.rebus.nodestake.top"
+    "https://rpc.cosmos.directory/rebus"
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
