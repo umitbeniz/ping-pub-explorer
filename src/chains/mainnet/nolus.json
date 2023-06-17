@@ -2,10 +2,10 @@
     "chain_name": "nolus",
     "coingecko": "",
     "api": [
-      "https://rest.nolus.nodexcapital.com"
+      "https://rest.cosmos.directory/nolus"
     ],
     "rpc": [
-      "https://rpc.nolus.nodexcapital.com"
+      "https://rpc.cosmos.directory/nolus"
     ],
     "sdk_version": "0.46.1",
     "coin_type": 118,
