@@ -1,10 +1,9 @@
 {
     "chain_name": "provenance",
     "coingecko": "",
-    "api": "https://api.provenance.io",
+    "api": "https://rest.cosmos.directory/provenance",
     "rpc": [
-        "https://rpc.provenance.io:443",
-        "https://rpc.provenance.io:443"
+        "https://rpc.cosmos.directory/provenance"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
