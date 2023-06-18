@@ -12,6 +12,11 @@
     "min_tx_fee": "0",
     "addr_prefix": "nolus",
     "logo": "/logos/nolus.png",
+    "keplr_price_step": {
+      "low": 0,
+      "average": 2500,
+      "high": 4000
+    },
     "assets": [
       {
         "base": "unls",
