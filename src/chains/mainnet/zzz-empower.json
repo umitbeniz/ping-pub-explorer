@@ -1,5 +1,5 @@
 {
-    "chain_name": "empower",
+    "chain_name": "testnet-empower",
     "api": [
         "https://empower-testnet-api.polkachu.com"
     ],
