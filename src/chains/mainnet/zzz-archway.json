@@ -1,0 +1,22 @@
+{
+    "chain_name": "testnet-archway",
+    "api": [
+        "https://api-t.archway.nodestake.top"
+    ],
+    "rpc": [
+        "https://rpc-t.archway.nodestake.top"
+    ],
+    "sdk_version": "0.45.5",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "archway",
+    "logo": "/logos/archway.png",
+    "assets": [
+        {
+            "base": "uarch",
+            "symbol": "ARCH",
+            "exponent": 6,
+            "logo": "/logos/archway.png"
+        }
+    ]
+}
