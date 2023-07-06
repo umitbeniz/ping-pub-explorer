@@ -7,15 +7,15 @@
         "https://rpc.archway.nodestake.top"
     ],
     "sdk_version": "0.45.5",
-    "coin_type": 118,
+    "coin_type": 60,
     "min_tx_fee": "0",
     "addr_prefix": "archway",
     "logo": "/logos/archway.png",
     "assets": [
         {
-            "base": "uarch",
+            "base": "aarch",
             "symbol": "ARCH",
-            "exponent": 6,
+            "exponent": 18,
             "logo": "/logos/archway.png"
         }
     ]
