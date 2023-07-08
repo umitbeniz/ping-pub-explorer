@@ -1,11 +1,11 @@
 {
-    "chain_name": "testnet-evmos",
+    "chain_name": "evmos",
     "coingecko": "",
     "api": [
-        "https://rest.bd.evmos.dev:1317"
+        "https://evmos-api.polkachu.com"
     ],
     "rpc": [
-        "https://tendermint.bd.evmos.dev:26657"
+        "https://evmos-rpc.polkachu.com"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
@@ -21,8 +21,8 @@
     ],
     "assets": [
         {
-            "base": "atevmos",
-            "symbol": "TEVMOS",
+            "base": "aevmos",
+            "symbol": "EVMOS",
             "exponent": 18,
             "coingecko_id": "",
             "logo": "/logos/evmos.jpeg"
