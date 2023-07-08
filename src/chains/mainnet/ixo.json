@@ -1,12 +1,13 @@
 {
     "chain_name": "ixo",
     "api": [
-        "https://impacthub.ixo.world/rest",
-        "https://proxies.sifchain.finance/api/impacthub-3/rest"
+        "https://rest.cosmos.directory/impacthub"
     ],
-    "rpc": [],
+    "rpc": [
+        "https://rpc.cosmos.directory/impacthub"
+    ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.4",
+    "sdk_version": "0.45.12",
     "coin_type": 118,
     "min_tx_fee": "3000",
     "addr_prefix": "ixo",

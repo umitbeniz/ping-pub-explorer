@@ -9,7 +9,7 @@
     "https://quicksilver-rpc.polkachu.com",
     "https://quicksilver-rpc.theamsolutions.info"
   ],
-  "sdk_version": "0.46.1",
+  "sdk_version": "0.46.13",
   "coin_type": 118,
   "min_tx_fee": "8000",
   "addr_prefix": "quicksilver",
