@@ -64,7 +64,7 @@ export default class Proposal {
             throw new Error('this.type is not /cosmos.gov.v1.MsgExecLegacyContent')
           }
         } else {
-          throw new Error('this.contents is undefined')
+          throw new Error(`this.contents is undefined. Contents:${this.contents}`)
         }
       } else {
         throw new Error('this.element.messages is undefined')
