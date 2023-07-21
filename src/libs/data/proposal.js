@@ -69,6 +69,11 @@ export default class Proposal {
         this.title = this.element.metadata.title || this.element.metadata
         this.description = this.element.metadata.description || this.element.metadata
       }
+      // Qwoyn case
+      if (this.element && this.title === '-' && this.description === '-') {
+        this.title = this.element.title
+        this.description = this.element.summary
+      }
     } else if (compareVersions(ver, '0.30') >= 0) {
       switch (this.element.proposal_status) {
         case 'Passed':
