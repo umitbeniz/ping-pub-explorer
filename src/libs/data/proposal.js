@@ -69,8 +69,8 @@ export default class Proposal {
         this.title = this.element.metadata.title || this.element.metadata
         this.description = this.element.metadata.description || this.element.metadata
       }
-      // Qwoyn case
-      if (this.element && this.metadata.title === undefined && this.metadata.description === undefined) {
+      // Qwoyn case - if messages field is empty/null
+      if (this.element && this.element.messages.length < 1 && this.metadata.title === undefined && this.metadata.description === undefined) {
         this.title = this.element.title
         this.description = this.element.summary
       }
