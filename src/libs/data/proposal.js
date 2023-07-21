@@ -61,15 +61,15 @@ export default class Proposal {
             this.title = this.contents.content.title
             this.description = this.contents.content.description
           } else {
-            console.error('this.type is not /cosmos.gov.v1.MsgExecLegacyContent')
+            console.log('this.type is not /cosmos.gov.v1.MsgExecLegacyContent')
           }
         } else {
-          // Handle the case when this.contents is undefined
-          console.error('this.contents is undefined')
+          console.log(this.contents)
+          console.log('this.contents is undefined')
         }
       } else {
-        // Handle the case when this.element.messages is undefined
-        console.error('this.element.messages is undefined')
+        console.log(this.element.messages)
+        console.log('this.element.messages is undefined')
       }
       if (this.element.metadata) {
         this.title = this.element.metadata.title || this.element.metadata
