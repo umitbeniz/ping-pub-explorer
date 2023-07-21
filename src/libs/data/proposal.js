@@ -53,11 +53,23 @@ export default class Proposal {
 
   versionFixed(ver) {
     if (compareVersions(ver, '0.46') >= 0) {
-      if (this.element.messages) [this.contents] = this.element.messages
-      if (this.contents) this.type = this.contents['@type']
-      if (this.contents['@type'] === '/cosmos.gov.v1.MsgExecLegacyContent') {
-        this.title = this.contents.content.title
-        this.description = this.contents.content.description
+      if (this.element.messages) {
+        [this.contents] = this.element.messages
+        if (this.contents) {
+          this.type = this.contents['@type']
+          if (this.type === '/cosmos.gov.v1.MsgExecLegacyContent') {
+            this.title = this.contents.content.title
+            this.description = this.contents.content.description
+          } else {
+            console.error('this.type is not /cosmos.gov.v1.MsgExecLegacyContent')
+          }
+        } else {
+          // Handle the case when this.contents is undefined
+          console.error('this.contents is undefined')
+        }
+      } else {
+        // Handle the case when this.element.messages is undefined
+        console.error('this.element.messages is undefined')
       }
       if (this.element.metadata) {
         this.title = this.element.metadata.title || this.element.metadata
