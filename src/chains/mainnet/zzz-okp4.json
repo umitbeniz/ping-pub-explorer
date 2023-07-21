@@ -11,13 +11,13 @@
   "coin_type": 118,
   "min_tx_fee": "0",
   "addr_prefix": "okp4",
-  "logo": "/logos/okp4.png",
+  "logo": "/logos/okp4.svg",
   "assets": [
     {
       "base": "uknow",
       "symbol": "KNOW",
       "exponent": 6,
-      "logo": "/logos/okp4.png"
+      "logo": "/logos/okp4.svg"
     }
   ]
 }
