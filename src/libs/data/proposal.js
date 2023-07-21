@@ -70,7 +70,7 @@ export default class Proposal {
         this.description = this.element.metadata.description || this.element.metadata
       }
       // Qwoyn case
-      if (this.element && this.title === '-' && this.description === '-') {
+      if (this.element && this.metadata.title === undefined && this.metadata.description === undefined) {
         this.title = this.element.title
         this.description = this.element.summary
       }
