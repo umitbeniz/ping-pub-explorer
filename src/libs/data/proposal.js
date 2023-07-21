@@ -62,14 +62,8 @@ export default class Proposal {
           if (this.type === '/cosmos.gov.v1.MsgExecLegacyContent') {
             this.title = this.contents.content.title
             this.description = this.contents.content.description
-          } else {
-            throw new Error('this.type is not /cosmos.gov.v1.MsgExecLegacyContent')
           }
-        } else {
-          throw new Error(`this.contents is undefined. Contents:${this.contents}`)
         }
-      } else {
-        throw new Error('this.element.messages is undefined')
       }
       if (this.element.metadata) {
         this.title = this.element.metadata.title || this.element.metadata
