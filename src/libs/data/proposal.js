@@ -53,8 +53,6 @@ export default class Proposal {
 
   versionFixed(ver) {
     if (compareVersions(ver, '0.46') >= 0) {
-      debugger
-      console.log(`this.contents is undefined. Contents:${this.element}`)
       if (this.element.messages) {
         [this.contents] = this.element.messages
         if (this.contents) {
