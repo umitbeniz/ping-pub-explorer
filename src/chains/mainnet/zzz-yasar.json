@@ -1,0 +1,25 @@
+{
+    "chain_name": "testnet-yasar",
+    "coingecko": "",
+    "api": [
+        "https://yasar-api.kalia.network"
+    ],
+    "rpc": [
+        "https://yasar-rpc.kalia.network/"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.10",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "yasar",
+    "logo": "/logos/yasar.png",
+    "assets": [
+        {
+            "base": "uyu",
+            "symbol": "YU",
+            "exponent": 6,
+            "coingecko_id": "",
+            "logo": "/logos/yasar.png"
+        }
+    ]
+}
