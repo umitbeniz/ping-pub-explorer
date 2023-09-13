@@ -6,9 +6,9 @@
     "rpc": [
         "https://rpc-testnet.c4e.io:443"
     ],
-    "sdk_version": "0.46.13",
-    "coin_type": 4444,
-    "min_tx_fee": "3000",
+    "sdk_version": "0.34.28",
+    "coin_type": 118,
+    "min_tx_fee": "0",
     "addr_prefix": "c4e",
     "logo": "/logos/c4e.png",
     "assets": [
