@@ -1,11 +1,11 @@
 {
     "chain_name": "gitopia",
     "api": [
-        "https://gitopia-api.stake-town.com",
+        "https://lcd-gitopia.whispernode.com",
         "https://gitopia-api.polkachu.com"
     ],
     "rpc": [
-        "https://gitopia-rpc.stake-town.com",
+        "https://rpc-gitopia.whispernode.com",
         "https://gitopia-rpc.polkachu.com"
     ],
     "snapshot_provider": "",
