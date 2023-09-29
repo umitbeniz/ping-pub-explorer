@@ -1,0 +1,23 @@
+{
+    "chain_name": "agoric",
+    "api": [
+        "https://main.api.agoric.net"
+    ],
+    "rpc": [
+        "https://main.rpc.agoric.net"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "agoric",
+    "logo": "/logos/agoric.svg",
+    "assets": [
+        {
+            "base": "ubld",
+            "symbol": "BLD",
+            "exponent": 6,
+            "logo": "/logos/agoric.svg"
+        }
+    ]
+}
