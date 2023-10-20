@@ -1,0 +1,23 @@
+{
+    "chain_name": "XPLA",
+    "coingecko": "xpla",
+    "api": "https://xpla-api.polkachu.com/",
+    "rpc": [
+        "https://xpla-rpc.polkachu.com/"
+    ],
+    "snapshot_provider": null,
+    "sdk_version": "0.46.6",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "assets": [
+        {
+            "base": "axpla",
+            "symbol": "XPLA",
+            "exponent": 18,
+            "coingecko_id": "xpla",
+            "logo": "/logos/xpla.svg"
+        }
+    ],
+    "addr_prefix": "xpla",
+    "logo": "/logos/xpla.svg"
+}
