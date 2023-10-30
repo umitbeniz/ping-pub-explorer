@@ -2,10 +2,10 @@
     "chain_name": "testnet-uptick",
     "coingecko": "",
     "api": [
-        "https://uptick-testnet.api.kjnodes.com"
+        "https://rest.origin.uptick.network"
     ],
     "rpc": [
-        "https://uptick-testnet.rpc.kjnodes.com"
+        "https://rest.origin.uptick.network"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.13",
