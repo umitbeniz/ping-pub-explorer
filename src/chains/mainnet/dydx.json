@@ -1,0 +1,24 @@
+{
+    "chain_name": "dYdX",
+    "api": [
+      "https://rest.cosmos.directory/dydx"
+    ],
+    "rpc": [
+      "https://rpc.cosmos.directory/dydx"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": 118,
+    "min_tx_fee": "12500000000",
+    "addr_prefix": "dydx",
+    "logo": "/logos/dydx.svg",
+    "assets": [
+      {
+        "base": "adydx",
+        "symbol": "DYDX",
+        "exponent": 18,
+        "coingecko_id": "dydx",
+        "logo": "/logos/dydx.svg"
+      }
+    ]
+  }
