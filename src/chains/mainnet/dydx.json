@@ -1,13 +1,13 @@
 {
     "chain_name": "dYdX",
     "api": [
-      "https://rest.cosmos.directory/dydx"
+      "https://dydx.api.kjnodes.com:443"
     ],
     "rpc": [
-      "https://rpc.cosmos.directory/dydx"
+      "https://dydx.rpc.kjnodes.com:443"
     ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.6",
+    "sdk_version": "0.47.4",
     "coin_type": 118,
     "min_tx_fee": "2500000000000000",
     "addr_prefix": "dydx",
