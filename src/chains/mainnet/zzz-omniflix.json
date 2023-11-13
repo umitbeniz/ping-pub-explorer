@@ -2,10 +2,10 @@
     "chain_name": "testnet-omniflix",
     "coingecko": "",
     "api": [
-        "https://api.flixtestnet.mcbnode.online"
+        "https://api.testnet.omniflix.network"
     ],
     "rpc": [
-        "https://rpc.flixtestnet.mcbnode.online"
+        "https://rpc.testnet.omniflix.network"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.10",
