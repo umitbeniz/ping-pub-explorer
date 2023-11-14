@@ -14,7 +14,7 @@
         "https://kujira.rpc.kjnodes.com:443"
     ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.4",
+    "sdk_version": "0.47.5",
     "coin_type": 118,
     "min_tx_fee": "1250",
     "addr_prefix": "kujira",
