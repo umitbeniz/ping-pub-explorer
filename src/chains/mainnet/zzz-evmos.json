@@ -2,10 +2,10 @@
     "chain_name": "testnet-evmos",
     "coingecko": "",
     "api": [
-        "https://rest.bd.evmos.dev:1317"
+        "https://api-t.evmos.nodestake.top"
     ],
     "rpc": [
-        "https://tendermint.bd.evmos.dev:26657"
+        "https://rpc-t.evmos.nodestake.top"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
