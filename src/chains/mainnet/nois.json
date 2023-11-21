@@ -1,0 +1,25 @@
+{
+    "chain_name": "nois",
+    "coingecko": "",
+    "api": [
+        "https://nois-api.polkachu.com"
+    ],
+    "rpc": [
+        "https://nois-api.polkachu.com:443"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.5",
+    "coin_type": 118,
+    "min_tx_fee": "1250",
+    "addr_prefix": "nois",
+    "logo": "/logos/nois.png",
+    "assets": [
+        {
+            "base": "unois",
+            "symbol": "NOIS",
+            "exponent": 6,
+            "coingecko_id": "nois",
+            "logo": "/logos/nois.png"
+        }
+    ]
+}
