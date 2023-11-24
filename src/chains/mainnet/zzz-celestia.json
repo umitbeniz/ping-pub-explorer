@@ -1,5 +1,5 @@
 {
-    "chain_name": "celestia",
+    "chain_name": "testnet-celestia",
     "api": [
         "https://celestia-testnet-api.polkachu.com"
     ],
