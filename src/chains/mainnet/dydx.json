@@ -1,10 +1,10 @@
 {
     "chain_name": "dYdX",
     "api": [
-      "https://dydx.api.kjnodes.com:443"
+      "https://dydx-api.polkachu.com"
     ],
     "rpc": [
-      "https://dydx.rpc.kjnodes.com:443"
+      "https://dydx-rpc.polkachu.com"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.47.4",

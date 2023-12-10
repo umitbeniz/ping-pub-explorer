@@ -1,10 +1,10 @@
 {
   "chain_name": "testnet-teritori",
   "api": [
-    "https://teritori-testnet.api.kjnodes.com"
+    "https://teritori-testnet-api.polkachu.com"
   ],
   "rpc": [
-    "https://teritori-testnet.rpc.kjnodes.com"
+    "https://teritori-testnet-rpc.polkachu.com"
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
