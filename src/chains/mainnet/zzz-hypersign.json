@@ -2,10 +2,10 @@
     "chain_name": "testnet-hypersign",
     "coingecko": "",
     "api": [
-        "https://api.jagrat.hypersign.id"
+        "https://api.prajna.hypersign.id"
     ],
     "rpc": [
-        "https://rpc.jagrat.hypersign.id"
+        "https://rpc.prajna.hypersign.id"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.0",
