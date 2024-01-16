@@ -12,6 +12,11 @@
   "min_tx_fee": "0",
   "addr_prefix": "tori",
   "logo": "/logos/teritori.svg",
+  "keplr_price_step": {
+      "low": 0,
+      "average": 200,
+      "high": 400
+  },
   "assets": [
     {
       "base": "utori",
