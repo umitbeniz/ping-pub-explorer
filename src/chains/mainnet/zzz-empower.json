@@ -1,10 +1,10 @@
 {
     "chain_name": "testnet-empower",
     "api": [
-        "https://empower-testnet-api.polkachu.com"
+        "https://empower-testnet-api.w3coins.io"
     ],
     "rpc": [
-        "https://empower-testnet-rpc.polkachu.com"
+        "https://empower-testnet-rpc.w3coins.io"
     ],
     "snapshot_provider": "",
     "sdk_version": "0.47.2",
