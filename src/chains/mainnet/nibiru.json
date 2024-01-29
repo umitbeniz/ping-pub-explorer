@@ -1,0 +1,23 @@
+{
+    "chain_name": "nibiru",
+    "api": [
+      "https://api-1.nibiru.nodes.guru"
+    ],
+    "rpc": [
+      "https://rpc-1.nibiru.nodes.guru"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.2",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "nibi",
+    "logo": "/logos/nibiru.png",
+    "assets": [
+      {
+        "base": "unibi",
+        "symbol": "NIBI",
+        "exponent": 6,
+        "logo": "/logos/nibiru.png"
+      }
+    ]
+  }
