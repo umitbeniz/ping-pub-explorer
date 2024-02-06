@@ -11,7 +11,7 @@
     "min_tx_fee": "0",
     "assets": [
         {
-            "base": "adym",
+            "base": "udym",
             "symbol": "DYM",
             "exponent": 18,
             "coingecko_id": "dymension",
