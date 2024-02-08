@@ -1,0 +1,23 @@
+{
+    "chain_name": "testnet-swisstronik",
+    "coingecko": "swisstronik",
+    "api": "https://api.testnet.swisstronik.com",
+    "rpc": [
+        "https://rpc.testnet.swisstronik.com"
+    ],
+    "snapshot_provider": null,
+    "sdk_version": "0.47.5",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "assets": [
+        {
+            "base": "uswtr",
+            "symbol": "SWTR",
+            "exponent": 18,
+            "coingecko_id": "swisstronik",
+            "logo": "/logos/swisstronik.png"
+        }
+    ],
+    "addr_prefix": "swtr",
+    "logo": "/logos/swisstronik.png"
+}
