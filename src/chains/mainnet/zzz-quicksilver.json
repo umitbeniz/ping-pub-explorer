@@ -2,10 +2,10 @@
   "chain_name": "testnet-quicksilver",
   "coingecko": "",
   "api": [
-    "https://quicksilver-testnet.api.kjnodes.com"
+    "https://quick.api.t.stavr.tech"
   ],
   "rpc": [
-    "https://quicksilver-testnet.rpc.kjnodes.com"
+    "https://quick.rpc.t.stavr.tech"
   ],
   "sdk_version": "0.46.1",
   "coin_type": 118,
