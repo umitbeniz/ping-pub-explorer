@@ -15,9 +15,9 @@
     "assets": [
         {
             "base": "uqwoyn",
-            "symbol": "QWOYN",
+            "symbol": "QNQ",
             "exponent": 6,
-            "coingecko_id": "qwoyn-1",
+            "coingecko_id": "qwoyn",
             "logo": "/logos/qwoyn.jpg"
         }
     ]
