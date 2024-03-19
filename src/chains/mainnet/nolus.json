@@ -1,6 +1,6 @@
 {
     "chain_name": "nolus",
-    "coingecko": "",
+    "coingecko": "nolus",
     "api": [
       "https://rest.cosmos.directory/nolus"
     ],
@@ -22,7 +22,7 @@
         "base": "unls",
         "symbol": "NLS",
         "exponent": 6,
-        "coingecko_id": "",
+        "coingecko_id": "nolus",
         "logo": "/logos/nolus.png"
       }
     ]

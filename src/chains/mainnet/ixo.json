@@ -1,5 +1,6 @@
 {
     "chain_name": "ixo",
+    "coingecko": "ixo",
     "api": [
         "https://rest.cosmos.directory/impacthub"
     ],

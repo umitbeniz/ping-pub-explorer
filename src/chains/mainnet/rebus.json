@@ -1,5 +1,6 @@
 {
   "chain_name": "rebus",
+  "coingecko": "rebus",
   "api": [
     "https://rest.cosmos.directory/rebus"
   ],

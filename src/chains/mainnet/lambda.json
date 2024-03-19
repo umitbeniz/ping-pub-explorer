@@ -1,5 +1,6 @@
 {
   "chain_name": "lambda",
+  "coingecko": "lambda",
   "api": [
     "https://rest.lambda.im",
     "https://api.lambda.nodestake.top",

@@ -1,5 +1,6 @@
 {
   "chain_name": "meme",
+  "coingecko": "meme-network",
   "api": [
     "https://meme-api.polkachu.com:443",
     "https://api.meme.pupmos.network:443"
@@ -19,7 +20,7 @@
       "base": "umeme",
       "symbol": "MEME",
       "exponent": 6,
-      "coingecko_id": "",
+      "coingecko_id": "meme-network",
       "logo": "/logos/meme.svg"
     }
   ]

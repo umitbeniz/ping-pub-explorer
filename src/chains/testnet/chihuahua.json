@@ -1,6 +1,6 @@
 {
   "chain_name": "chihuahua",
-  "coingecko": "",
+  "coingecko": "chihuahua-token",
   "api": ["https://chihuahua-testnet-api.polkachu.com"],
   "rpc": ["https://chihuahua-testnet-rpc.polkachu.com"],
   "sdk_version": "0.44.3",
@@ -13,7 +13,7 @@
       "base": "uhuahua",
       "symbol": "HUAHUA",
       "exponent": "6",
-      "coingecko_id": "",
+      "coingecko_id": "chihuahua-token",
       "logo": "/logos/chihuahua.png"
     }
   ]

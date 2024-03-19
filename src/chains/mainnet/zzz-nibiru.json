@@ -1,5 +1,6 @@
 {
   "chain_name": "testnet-nibiru",
+  "coingecko": "nibiru",
   "api": [
     "https://nibiru-testnet.api.kjnodes.com"
   ],
@@ -17,6 +18,7 @@
       "base": "unibi",
       "symbol": "NIBI",
       "exponent": 6,
+      "coingecko_id": "nibiru",
       "logo": "/logos/nibiru.png"
     }
   ]

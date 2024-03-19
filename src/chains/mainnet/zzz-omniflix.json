@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-omniflix",
-    "coingecko": "",
+    "coingecko": "omniflix-network",
     "api": [
         "https://api.testnet.omniflix.network"
     ],
@@ -18,7 +18,7 @@
             "base": "uflix",
             "symbol": "FLIX",
             "exponent": 6,
-            "coingecko_id": "",
+            "coingecko_id": "omniflix-network",
             "logo": "/logos/omniflix.png"
         }
     ]

@@ -1,5 +1,6 @@
 {
     "chain_name": "dYdX",
+    "coingecko": "dydx",
     "api": [
       "https://dydx-api.polkachu.com"
     ],

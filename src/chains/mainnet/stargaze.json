@@ -1,5 +1,6 @@
 {
     "chain_name": "stargaze",
+    "coingecko": "stargaze",
     "api": [
         "https://stargaze-api.polkachu.com/",
         "https://api-stargaze-ia.cosmosia.notional.ventures/",

@@ -1,6 +1,6 @@
 {
     "chain_name": "evmos",
-    "coingecko": "",
+    "coingecko": "evmos",
     "api": [
         "https://evmos-api.polkachu.com"
     ],
@@ -24,7 +24,7 @@
             "base": "aevmos",
             "symbol": "EVMOS",
             "exponent": 18,
-            "coingecko_id": "",
+            "coingecko_id": "evmos",
             "logo": "/logos/evmos.jpeg"
         }
     ]

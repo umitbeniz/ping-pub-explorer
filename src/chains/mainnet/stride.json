@@ -1,5 +1,6 @@
 {
     "chain_name": "stride",
+    "coingecko": "stride",
     "api": [
         "https://stride-api.polkachu.com",
         "https://api.stride.nodestake.top",

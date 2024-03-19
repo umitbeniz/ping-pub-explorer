@@ -1,5 +1,6 @@
 {
     "chain_name": "qwoyn",
+    "coingecko": "qwoyn",
     "api": [
         "https://qwoyn-api.kalia.network"
     ],

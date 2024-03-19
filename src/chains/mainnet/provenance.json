@@ -16,7 +16,7 @@
             "base": "nhash",
             "symbol": "HASH",
             "exponent": 9,
-            "coingecko_id": "provenance-blockchain",
+            "coingecko_id": "",
             "logo": "/logos/provenance.svg"
         }
     ]

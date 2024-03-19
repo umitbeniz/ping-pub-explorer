@@ -1,5 +1,6 @@
 {
     "chain_name": "nibiru",
+    "coingecko": "nibiru",
     "api": [
       "https://api-1.nibiru.nodes.guru"
     ],
@@ -17,6 +18,7 @@
         "base": "unibi",
         "symbol": "NIBI",
         "exponent": 6,
+        "coingecko_id": "nibiru",
         "logo": "/logos/nibiru.png"
       }
     ]

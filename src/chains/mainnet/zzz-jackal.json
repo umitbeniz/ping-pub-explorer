@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-jackal",
-    "coingecko": "jackal_protocol",
+    "coingecko": "jackal-protocol",
     "api": [
         "https://api-t.jackal.nodestake.top",
         "https://testnet-api.jackalprotocol.com"
@@ -19,7 +19,7 @@
             "base": "ujkl",
             "symbol": "JKL",
             "exponent": 6,
-            "coingecko_id": "jackal",
+            "coingecko_id": "jackal-protocol",
             "logo": "/logos/jackal.png"
         }
     ]

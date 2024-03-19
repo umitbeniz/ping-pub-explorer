@@ -1,5 +1,6 @@
 {
     "chain_name": "sifchain",
+    "coingecko": "sifchain",
     "api": [
         "https://api-sifchain-ia.cosmosia.notional.ventures",
         "https://sifchain-api.polkachu.com",

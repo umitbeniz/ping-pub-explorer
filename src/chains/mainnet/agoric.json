@@ -1,5 +1,6 @@
 {
     "chain_name": "agoric",
+    "coingecko": "agoric",
     "api": [
         "https://main.api.agoric.net"
     ],
@@ -17,6 +18,7 @@
             "base": "ubld",
             "symbol": "BLD",
             "exponent": 6,
+            "coingecko_id": "agoric",
             "logo": "/logos/agoric.svg"
         }
     ]

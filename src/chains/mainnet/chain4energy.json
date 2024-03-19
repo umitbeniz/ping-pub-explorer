@@ -1,5 +1,6 @@
 {
     "chain_name": "chain4energy",
+    "coingecko": "",
     "api": [
         "https://lcd.c4e.io"
     ],
@@ -17,6 +18,7 @@
             "base": "uc4e",
             "symbol": "C4E",
             "exponent": 6,
+            "coingecko_id": "",
             "logo": "/logos/c4e.png"
         }
     ]

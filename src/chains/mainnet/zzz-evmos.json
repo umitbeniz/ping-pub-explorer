@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-evmos",
-    "coingecko": "",
+    "coingecko": "evmos",
     "api": [
         "https://api-t.evmos.nodestake.top"
     ],
@@ -24,7 +24,7 @@
             "base": "atevmos",
             "symbol": "TEVMOS",
             "exponent": 18,
-            "coingecko_id": "",
+            "coingecko_id": "evmos",
             "logo": "/logos/evmos.jpeg"
         }
     ]

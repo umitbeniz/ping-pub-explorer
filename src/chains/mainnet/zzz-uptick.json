@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-uptick",
-    "coingecko": "",
+    "coingecko": "uptick",
     "api": [
         "https://rest.origin-3.uptick.network"
     ],

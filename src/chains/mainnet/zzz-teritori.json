@@ -1,5 +1,6 @@
 {
   "chain_name": "testnet-teritori",
+  "coingecko": "teritori",
   "api": [
     "https://rest.testnet.teritori.com"
   ],

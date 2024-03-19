@@ -1,5 +1,6 @@
 {
     "chain_name": "testnet-celestia",
+    "coingecko": "celestia",
     "api": [
         "https://celestia-testnet-api.polkachu.com"
     ],
@@ -17,6 +18,7 @@
             "base": "utia",
             "symbol": "TIA",
             "exponent": 6,
+            "coingecko_id": "celestia",
             "logo": "/logos/celestia.png"
         }
     ]

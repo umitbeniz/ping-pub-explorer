@@ -1,5 +1,6 @@
 {
     "chain_name": "gitopia",
+    "coingecko": "gitopia",
     "api": [
         "https://lcd-gitopia.whispernode.com",
         "https://gitopia-api.polkachu.com"
@@ -19,6 +20,7 @@
             "base": "ulore",
             "symbol": "LORE",
             "exponent": 6,
+            "coingecko_id": "gitopia",
             "logo": "/logos/gitopia.png"
         }
     ]

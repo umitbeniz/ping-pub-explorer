@@ -1,6 +1,6 @@
 {
   "chain_name": "testnet-quicksilver",
-  "coingecko": "",
+  "coingecko": "quicksilver",
   "api": [
     "https://quick.api.t.stavr.tech"
   ],
@@ -17,7 +17,7 @@
       "base": "uqck",
       "symbol": "QCK",
       "exponent": 6,
-      "coingecko_id": "",
+      "coingecko_id": "quicksilver",
       "logo": "/logos/quicksilver.png"
     }
   ]

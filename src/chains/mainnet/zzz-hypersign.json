@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-hypersign",
-    "coingecko": "",
+    "coingecko": "hypersign-identity-token",
     "api": [
         "https://api.prajna.hypersign.id"
     ],

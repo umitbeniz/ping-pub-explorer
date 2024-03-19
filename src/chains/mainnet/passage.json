@@ -1,5 +1,6 @@
 {
   "chain_name": "passage",
+  "coingecko": "passage",
   "api": [
     "https://passage-api.polkachu.com",
     "https://api.passage.nodestake.top"
@@ -18,7 +19,9 @@
     {
       "base": "upasg",
       "symbol": "PASG",
-      "exponent": 6
+      "exponent": 6,
+      "coingecko_id": "passage",
+      "logo": "/logos/passage.png"
     }
   ]
 }

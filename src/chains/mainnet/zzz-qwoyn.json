@@ -1,5 +1,6 @@
 {
     "chain_name": "testnet-qwoyn",
+    "coingecko": "qwoyn",
     "api": [
         "https://testnet-api.qwoyn.studio"
     ],
@@ -17,7 +18,7 @@
             "base": "uqwoyn",
             "symbol": "QWOYN",
             "exponent": 6,
-            "coingecko_id": "qwoyn-1",
+            "coingecko_id": "qwoyn",
             "logo": "/logos/qwoyn.jpg"
         }
     ]

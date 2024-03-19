@@ -1,6 +1,6 @@
 {
     "chain_name": "uptick",
-    "coingecko": "",
+    "coingecko": "uptick",
     "api": [
         "https://rest.cosmos.directory/uptick"
     ],

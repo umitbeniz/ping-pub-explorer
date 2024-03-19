@@ -1,6 +1,6 @@
 {
     "chain_name": "nois",
-    "coingecko": "",
+    "coingecko": "nois",
     "api": [
         "https://nois-api.polkachu.com"
     ],

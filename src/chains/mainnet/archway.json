@@ -1,5 +1,6 @@
 {
     "chain_name": "archway",
+    "coingecko": "archway",
     "api": [
         "https://api.archway.nodestake.top"
     ],
@@ -16,6 +17,7 @@
             "base": "aarch",
             "symbol": "ARCH",
             "exponent": 18,
+            "coingecko_id": "archway",
             "logo": "/logos/archway.png"
         }
     ]

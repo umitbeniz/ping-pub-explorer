@@ -1,6 +1,6 @@
 {
     "chain_name": "testnet-defund",
-    "coingecko": null,
+    "coingecko": "defund",
     "api": [
         "https://defund-testnet.api.kjnodes.com"
     ],

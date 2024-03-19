@@ -1,6 +1,6 @@
 {
     "chain_name": "kujira",
-    "coingecko": "",
+    "coingecko": "kujira",
     "api": [
         "https://lcd.kaiyo.kujira.setten.io",
         "https://kujira-api.polkachu.com",

@@ -1,5 +1,6 @@
 {
     "chain_name": "migaloo",
+    "coingecko": "white-whale",
     "api": [
         "https://rest.cosmos.directory/migaloo"
     ],

@@ -1,6 +1,6 @@
 {
     "chain_name": "juno",
-    "coingecko": "juno",
+    "coingecko": "juno-network",
     "api": [
         "https://juno-rest.publicnode.com"
     ],
@@ -17,7 +17,7 @@
             "base": "ujuno",
             "symbol": "JUNO",
             "exponent": 6,
-            "coingecko_id": "juno",
+            "coingecko_id": "juno-network",
             "logo": "/logos/juno.svg"
         }
     ]
