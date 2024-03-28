@@ -1,0 +1,25 @@
+{
+    "chain_name": "testnet-narwhal",
+    "coingecko": "white-whale",
+    "api": [
+        "https://api.narwhal.pfc.zone"
+    ],
+    "rpc": [
+        "https://rpc.narwhal.pfc.zone"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": 118,
+    "min_tx_fee": "0",
+    "addr_prefix": "migaloo",
+    "logo": "/logos/migaloo.svg",
+    "assets": [
+        {
+            "base": "uwhale",
+            "symbol": "WHALE",
+            "exponent": 6,
+            "coingecko_id": "white-whale",
+            "logo": "/logos/migaloo.svg"
+        }
+    ]
+}
