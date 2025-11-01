@@ -1,9 +1,9 @@
 {
     "chain_name": "testnet-dymension",
     "coingecko": "dymension",
-    "api": "https://dymension-testnet-rest.brocha.in",
+    "api": "https://dymension-testnet.api.kjnodes.com",
     "rpc": [
-        "https://dymension-testnet-rpc.brocha.in"
+        "https://dymension-testnet.rpc.kjnodes.com"
     ],
     "snapshot_provider": null,
     "sdk_version": "0.46.15",

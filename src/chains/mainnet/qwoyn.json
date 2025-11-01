@@ -2,13 +2,15 @@
     "chain_name": "qwoyn",
     "coingecko": "qwoyn",
     "api": [
+	"https://api.qwoyn.studio",
         "https://qwoyn-api.kalia.network"
     ],
     "rpc": [
+	"https://rpc.qwoyn.studio",
         "https://qwoyn-rpc.kalia.network"
     ],
     "snapshot_provider": "",
-    "sdk_version": "0.47.3",
+    "sdk_version": "0.47.6",
     "coin_type": 118,
     "min_tx_fee": "6250",
     "addr_prefix": "qwoyn",

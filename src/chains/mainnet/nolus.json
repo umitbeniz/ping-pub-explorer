@@ -2,12 +2,14 @@
     "chain_name": "nolus",
     "coingecko": "nolus",
     "api": [
-      "https://rest.cosmos.directory/nolus"
+	"https://nolus-api.polkachu.com",
+      "https://rest-nolus.architectnodes.com"
     ],
     "rpc": [
-      "https://rpc.cosmos.directory/nolus"
+	"https://nolus-rpc.polkachu.com",
+      "https://rpc-nolus.architectnodes.com"
     ],
-    "sdk_version": "0.45.15",
+    "sdk_version": "0.50.11",
     "coin_type": 118,
     "min_tx_fee": "0",
     "addr_prefix": "nolus",

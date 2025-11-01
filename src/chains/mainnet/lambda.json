@@ -2,14 +2,10 @@
   "chain_name": "lambda",
   "coingecko": "lambda",
   "api": [
-    "https://rest.lambda.im",
-    "https://api.lambda.nodestake.top",
-    "https://lambda-api.jambulmerah.dev"
+    "http://46.4.81.204:3817"
   ],
   "rpc": [
-    "https://rpc.lambda.im",
-    "https://rpc.lambda.nodestake.top",
-    "https://lambda-rpc.jambulmerah.dev"
+    "http://46.4.81.204:38657"
   ],
   "sdk_version": "0.45.6",
   "coin_type": 60,

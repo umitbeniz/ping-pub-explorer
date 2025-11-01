@@ -2,11 +2,9 @@
     "chain_name": "gitopia",
     "coingecko": "gitopia",
     "api": [
-        "https://lcd-gitopia.whispernode.com",
         "https://gitopia-api.polkachu.com"
     ],
     "rpc": [
-        "https://rpc-gitopia.whispernode.com",
         "https://gitopia-rpc.polkachu.com"
     ],
     "snapshot_provider": "",
