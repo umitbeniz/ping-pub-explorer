@@ -1,9 +1,9 @@
 {
     "chain_name": "dymension",
     "coingecko": "dymension",
-    "api": "https://dymension-api.kalia.network",
+    "api": "https://m-dymension.api.utsa.tech",
     "rpc": [
-        "https://dymension-rpc.kalia.network"
+        "https://m-dymension.rpc.utsa.tech"
     ],
     "snapshot_provider": null,
     "sdk_version": "0.46.15",
