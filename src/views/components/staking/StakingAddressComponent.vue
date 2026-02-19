@@ -1,3 +1,4 @@
+// src/views/components/staking/StakingAddressComponent.vue
 <template>
   <b-card
     title="Address"

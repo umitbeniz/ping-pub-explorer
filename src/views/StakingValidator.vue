@@ -1,3 +1,4 @@
+// src/views/StakingValidator.vue
 <template>
   <div>
     <b-card class="border-primary">
@@ -227,8 +228,19 @@
         />
       </b-col>
     </b-row>
-    <b-row>
+    <b-row class="mt-2">
       <b-col>
+        <delegators-component
+          v-if="validator && validator.operator_address"
+          :validator-address="validator.operator_address"
+        />
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col
+        lg="4"
+        md="12"
+      >
         <b-card title="Transactions">
           <b-table
             :items="txs"
@@ -259,6 +271,7 @@
         </b-card>
       </b-col>
     </b-row>
+
     <operation-modal
       type="Delegate"
       :validator-address="validator.operator_address"
@@ -280,6 +293,7 @@ import OperationModal from '@/views/components/OperationModal/index.vue'
 import StakingAddressComponent from './components/staking/StakingAddressComponent.vue'
 import StakingCommissionComponent from './components/staking/StakingCommissionComponent.vue'
 import StakingRewardComponent from './components/staking/StakingRewardComponent.vue'
+import DelegatorsComponent from './components/staking/DelegatorsComponent.vue'
 
 export default {
   components: {
@@ -296,6 +310,7 @@ export default {
     StakingCommissionComponent,
     StakingRewardComponent,
     OperationModal,
+    DelegatorsComponent,
   },
   directives: {
     'b-modal': VBModal,

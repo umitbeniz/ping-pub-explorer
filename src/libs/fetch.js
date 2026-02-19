@@ -481,6 +481,14 @@ export default class ChainFetch {
     return this.get(`/cosmos/staking/v1beta1/delegators/${address}/unbonding_delegations`, config, true).then(data => commonProcess(data))
   }
 
+  async getValidatorDelegations(address, paginationKey = null) {
+    let url = `/cosmos/staking/v1beta1/validators/${address}/delegations`
+    if (paginationKey) {
+      url += `?pagination.key=${paginationKey}`
+    }
+    return this.get(url)
+  }
+
   async getBankBalances(address, config = null) {
     return this.get('/cosmos/bank/v1beta1/balances/'.concat(address), config).then(data => commonProcess(data))
   }

@@ -30,11 +30,11 @@ function processMenu() {
       icon: 'ChromeIcon',
     })
   } else {
-    chainMenus.push({
-      title: 'Testnet Explorer',
-      href: 'https://testnet.explorer.kalia.network',
-      icon: 'LifeBuoyIcon',
-    })
+    // chainMenus.push({
+    //   title: 'Testnet Explorer',
+    //   href: 'https://testnet.explorer.kalia.network',
+    //   icon: 'LifeBuoyIcon',
+    // })
   }
   chainMenus.push({
     title: 'Twitter',

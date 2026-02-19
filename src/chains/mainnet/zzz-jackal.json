@@ -1,26 +1,28 @@
 {
-    "chain_name": "testnet-jackal",
-    "coingecko": "jackal-protocol",
-    "api": [
-        "https://api-t.jackal.nodestake.top",
-        "https://testnet-api.jackalprotocol.com"
-    ],
-    "rpc": [
-        "https://rpc-t.jackal.nodestake.top",
-        "https://testnet-rpc.jackalprotocol.com"
-    ],
-    "snapshot_provider": "",
-    "coin_type": 118,
-    "sdk_version": "0.45.10",
-    "addr_prefix": "jkl",
-    "logo": "/logos/jackal.png",
-    "assets": [
-        {
-            "base": "ujkl",
-            "symbol": "JKL",
-            "exponent": 6,
-            "coingecko_id": "jackal-protocol",
-            "logo": "/logos/jackal.png"
-        }
-    ]
+  "chain_name": "testnet-jackal",
+  "coingecko": "jackal-protocol",
+  "api": [
+    "https://jackal-testnet-api.polkachu.com",
+    "https://api-t.jackal.nodestake.top",
+    "https://testnet-api.jackalprotocol.com"
+  ],
+  "rpc": [
+    "https://jackal-testnet-rpc.polkachu.com",
+    "https://rpc-t.jackal.nodestake.top",
+    "https://testnet-rpc.jackalprotocol.com"
+  ],
+  "snapshot_provider": "",
+  "coin_type": 118,
+  "sdk_version": "0.45.10",
+  "addr_prefix": "jkl",
+  "logo": "/logos/jackal.png",
+  "assets": [
+    {
+      "base": "ujkl",
+      "symbol": "JKL",
+      "exponent": 6,
+      "coingecko_id": "jackal-protocol",
+      "logo": "/logos/jackal.png"
+    }
+  ]
 }

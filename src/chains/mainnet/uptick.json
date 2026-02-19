@@ -1,36 +1,32 @@
 {
-    "chain_name": "uptick",
-    "coingecko": "uptick",
-    "api": [
-        "https://rest.cosmos.directory/uptick"
-    ],
-    "rpc": [
-        "https://rpc.cosmos.directory/uptick"
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.46.13",
-    "coin_type": 60,
-    "min_tx_fee": "2000000000000000",
-    "addr_prefix": "uptick",
-    "logo": "/logos/uptick.png",
-    "keplr_features": [
-        "ibc-transfer",
-        "ibc-go",
-        "eth-address-gen",
-        "eth-key-sign"
-    ],
-    "keplr_price_step": {
-        "low": 0,
-        "average": 20000000000,
-        "high": 40000000000
-    },
-    "assets": [
-        {
-            "base": "auptick",
-            "symbol": "UPTICK",
-            "exponent": 18,
-            "coingecko_id": "uptick",
-            "logo": "/logos/uptick.png"
-        }
-    ]
+  "chain_name": "uptick",
+  "coingecko": "uptick",
+  "api": ["https://rest.uptick.network"],
+  "rpc": ["https://rpc.uptick.network"],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.13",
+  "coin_type": 60,
+  "min_tx_fee": "2000000000000000",
+  "addr_prefix": "uptick",
+  "logo": "/logos/uptick.png",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "keplr_price_step": {
+    "low": 0,
+    "average": 20000000000,
+    "high": 40000000000
+  },
+  "assets": [
+    {
+      "base": "auptick",
+      "symbol": "UPTICK",
+      "exponent": 18,
+      "coingecko_id": "uptick",
+      "logo": "/logos/uptick.png"
+    }
+  ]
 }

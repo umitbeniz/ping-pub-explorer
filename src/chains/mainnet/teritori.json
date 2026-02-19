@@ -1,14 +1,8 @@
 {
   "chain_name": "teritori",
   "coingecko": "teritori",
-  "api": [
-    "https://rest.mainnet.teritori.com",
-    "https://api.teritori.nodestake.top"
-  ],
-  "rpc": [
-    "https://rpc.mainnet.teritori.com",
-    "https://rpc.teritori.nodestake.top"
-  ],
+  "api": ["https://teritori-rest.publicnode.com"],
+  "rpc": ["https://teritori-rpc.publicnode.com"],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
   "coin_type": 118,

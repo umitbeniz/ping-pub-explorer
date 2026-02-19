@@ -1,23 +1,21 @@
 {
-    "chain_name": "testnet-dymension",
-    "coingecko": "dymension",
-    "api": "https://dymension-testnet.api.kjnodes.com",
-    "rpc": [
-        "https://dymension-testnet.rpc.kjnodes.com"
-    ],
-    "snapshot_provider": null,
-    "sdk_version": "0.46.15",
-    "coin_type": 118,
-    "min_tx_fee": "0",
-    "assets": [
-        {
-            "base": "udym",
-            "symbol": "DYM",
-            "exponent": 18,
-            "coingecko_id": "dymension",
-            "logo": "/logos/dymension.png"
-        }
-    ],
-    "addr_prefix": "dym",
-    "logo": "/logos/dymension.png"
+  "chain_name": "testnet-dymension",
+  "coingecko": "dymension",
+  "api": "https://dymension-testnet-rest.publicnode.com",
+  "rpc": ["https://dymension-testnet-rpc.publicnode.com"],
+  "snapshot_provider": null,
+  "sdk_version": "0.46.15",
+  "coin_type": 118,
+  "min_tx_fee": "0",
+  "assets": [
+    {
+      "base": "udym",
+      "symbol": "DYM",
+      "exponent": 18,
+      "coingecko_id": "dymension",
+      "logo": "/logos/dymension.png"
+    }
+  ],
+  "addr_prefix": "dym",
+  "logo": "/logos/dymension.png"
 }
