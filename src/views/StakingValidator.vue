@@ -237,10 +237,7 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col
-        lg="4"
-        md="12"
-      >
+      <b-col>
         <b-card title="Transactions">
           <b-table
             :items="txs"
