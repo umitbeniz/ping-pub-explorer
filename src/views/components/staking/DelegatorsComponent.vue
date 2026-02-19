@@ -1,7 +1,9 @@
 <template>
   <b-card>
     <div class="d-flex justify-content-between align-items-center mb-1">
-      <h4 class="card-title">Delegators</h4>
+      <h4 class="card-title">
+        Delegators
+      </h4>
       <small>Total: {{ totalDelegators }}</small>
     </div>
 
