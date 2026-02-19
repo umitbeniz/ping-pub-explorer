@@ -1,25 +1,21 @@
 {
-    "chain_name": "akash",
-    "alias": "akash-network",
-    "api": [
-        "https://akash-api.polkachu.com"
-    ],
-    "rpc": [
-        "https://akash-rpc.polkachu.com"
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.4",
-    "coin_type": 118,
-    "min_tx_fee": "8000",
-    "assets": [
-        {
-            "base": "uakt",
-            "symbol": "AKT",
-            "exponent": 6,
-            "coingecko_id": "akash-network",
-            "logo": "/logos/akash-network.png"
-        }
-    ],
-    "addr_prefix": "akash",
-    "logo": "/logos/akash-network.png"
+  "chain_name": "akash",
+  "alias": "akash-network",
+  "api": ["https://akash-api.polkachu.com"],
+  "rpc": ["https://akash-rpc.polkachu.com"],
+  "snapshot_provider": "",
+  "sdk_version": "0.53.4",
+  "coin_type": 118,
+  "min_tx_fee": "8000",
+  "assets": [
+    {
+      "base": "uakt",
+      "symbol": "AKT",
+      "exponent": 6,
+      "coingecko_id": "akash-network",
+      "logo": "/logos/akash-network.png"
+    }
+  ],
+  "addr_prefix": "akash",
+  "logo": "/logos/akash-network.png"
 }

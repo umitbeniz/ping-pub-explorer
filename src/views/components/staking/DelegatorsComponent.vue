@@ -129,6 +129,7 @@ export default {
 
           this.totalFromApi = Number(res.pagination?.total || this.delegators.length)
         })
+        // eslint-disable-next-line
         .catch(err => console.error('Delegations ERROR:', err))
         // eslint-disable-next-line no-return-assign
         .finally(() => (this.loading = false))

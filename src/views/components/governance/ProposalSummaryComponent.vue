@@ -9,7 +9,13 @@
         pill
         variant="light-primary"
       >
-        {{ formatType(p.contents['@type']) }}
+        {{ formatType(
+          p.contents && p.contents['@type']
+            ? p.contents['@type']
+            : (p.messages && p.messages[0] && p.messages[0].content && p.messages[0].content['@type'])
+              ? p.messages[0].content['@type']
+              : '-'
+        ) }}
       </b-badge>
       <router-link
         :to="`./gov/${p.id}`"

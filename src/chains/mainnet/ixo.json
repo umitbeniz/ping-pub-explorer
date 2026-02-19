@@ -1,25 +1,21 @@
 {
-    "chain_name": "ixo",
-    "coingecko": "ixo",
-    "api": [
-        "https://rest.cosmos.directory/impacthub"
-    ],
-    "rpc": [
-        "https://rpc.cosmos.directory/impacthub"
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.12",
-    "coin_type": 118,
-    "min_tx_fee": "3000",
-    "addr_prefix": "ixo",
-    "logo": "/logos/ixo.svg",
-    "assets": [
-        {
-            "base": "uixo",
-            "symbol": "IXO",
-            "exponent": 6,
-            "coingecko_id": "ixo",
-            "logo": "/logos/ixo.svg"
-        }
-    ]
+  "chain_name": "ixo",
+  "coingecko": "ixo",
+  "api": ["https://rest.cosmos.directory/impacthub"],
+  "rpc": ["https://rpc.cosmos.directory/impacthub"],
+  "snapshot_provider": "",
+  "sdk_version": "0.50.11",
+  "coin_type": 118,
+  "min_tx_fee": "3000",
+  "addr_prefix": "ixo",
+  "logo": "/logos/ixo.svg",
+  "assets": [
+    {
+      "base": "uixo",
+      "symbol": "IXO",
+      "exponent": 6,
+      "coingecko_id": "ixo",
+      "logo": "/logos/ixo.svg"
+    }
+  ]
 }

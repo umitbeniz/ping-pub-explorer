@@ -1,23 +1,21 @@
 {
-    "chain_name": "dymension",
-    "coingecko": "dymension",
-    "api": "https://m-dymension.api.utsa.tech",
-    "rpc": [
-        "https://m-dymension.rpc.utsa.tech"
-    ],
-    "snapshot_provider": null,
-    "sdk_version": "0.46.15",
-    "coin_type": 118,
-    "min_tx_fee": "0",
-    "assets": [
-        {
-            "base": "adym",
-            "symbol": "DYM",
-            "exponent": 18,
-            "coingecko_id": "dymension",
-            "logo": "/logos/dymension.png"
-        }
-    ],
-    "addr_prefix": "dym",
-    "logo": "/logos/dymension.png"
+  "chain_name": "dymension",
+  "coingecko": "dymension",
+  "api": "https://lcd-dymension.imperator.co",
+  "rpc": ["https://rpc-dymension.imperator.co"],
+  "snapshot_provider": null,
+  "sdk_version": "0.50.14",
+  "coin_type": 118,
+  "min_tx_fee": "0",
+  "assets": [
+    {
+      "base": "adym",
+      "symbol": "DYM",
+      "exponent": 18,
+      "coingecko_id": "dymension",
+      "logo": "/logos/dymension.png"
+    }
+  ],
+  "addr_prefix": "dym",
+  "logo": "/logos/dymension.png"
 }
